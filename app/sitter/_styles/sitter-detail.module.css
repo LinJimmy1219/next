@@ -1,0 +1,19 @@
+:root {
+  --bs-primary: #ed784a;
+}
+
+.star-width {
+  width: 24px;
+}
+.half-star-width {
+  width: 12px;
+}
+
+.bgc-primary {
+  background-color: #ed784a;
+}
+
+.ccc-primary {
+  color: #ed784a;
+  outline: #ed784a;
+}

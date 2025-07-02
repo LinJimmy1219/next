@@ -1,0 +1,93 @@
+.block {
+  border: 2px solid #d9d9d999;
+  border-radius: 10px;
+  position: relative;
+  overflow: visible; // 允許按鈕超出容器
+  padding: 1rem 2rem; // 留點空間給箭頭
+}
+
+.btnCustom {
+  width: 225px;
+  height: 50px;
+  border: 1px solid #ed784a;
+  background: transparent;
+  color: #ed784a;
+  padding: 12px 75px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: 'Kiwi Maru';
+  white-space: nowrap;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.btnCustom:hover,
+.btnCustom.active {
+  background-color: #ed784a;
+  border-color: #d96a3c;
+  color: #fff;
+}
+
+.scroll-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2.4rem;
+  z-index: 10;
+  background: transparent;
+  border: none;
+  color: #888;
+  cursor: pointer;
+  padding: 0.2rem;
+  transition: background-color 0.2s ease;
+  user-select: none;
+}
+
+.scroll-btn-left {
+  left: 0.3rem; // 往左多空間避免壓住卡片
+}
+
+.scroll-btn-right {
+  right: 0.3rem;
+}
+
+.scroll-btn:hover {
+  background: none;
+  color: #ed784a;
+  opacity: 1;
+}
+
+/* Webkit 瀏覽器 (Chrome, Safari, Edge) */
+.scrollContainer::-webkit-scrollbar {
+  display: none;
+}
+
+/* Firefox */
+.scrollContainer {
+  scrollbar-width: none;
+}
+
+/* IE 及 Edge（舊版） */
+.scrollContainer {
+  -ms-overflow-style: none;
+}
+
+@media (max-width: 768px) {
+  .scrollContainer {
+    flex-direction: column !important;
+    overflow-x: hidden !important;
+    overflow-y: visible;
+    align-items: center;
+  }
+
+  .scroll-btn {
+    display: none !important;
+    background-color: none;
+  }
+}
+
+.has-left-shadow.has-right-shadow {
+  box-shadow:
+    inset 20px 0 10px -10px rgba(0, 0, 0, 0.15),
+    inset -20px 0 10px -10px rgba(0, 0, 0, 0.15);
+}

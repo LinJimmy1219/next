@@ -1,0 +1,18 @@
+.navigationArrow {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  cursor: pointer;
+  position: relative;
+  top: 50%;
+  /* transform: translateY(-50%); */
+  z-index: 2;
+  background: none;
+  border: none;
+}
+
+@media (max-width: 576px) {
+  .navigationArrow {
+    display: none;
+  }
+}

@@ -1,0 +1,29 @@
+.pageContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px; // 控制元件之間的間距（可調整）
+}
+
+.paginationContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.couponList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 0 25px 0 10px !important;
+  min-height: 500px; // 預留空間
+
+  @media (max-width: 576px) {
+    min-height: 0px;
+
+    :global(.container) {
+      padding: 10px 5px !important;
+    }
+  }
+}

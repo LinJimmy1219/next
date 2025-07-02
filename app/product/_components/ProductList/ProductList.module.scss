@@ -1,0 +1,20 @@
+.cardGroup {
+  display: flex;
+  padding-bottom: 30px;
+  padding-left: 86px;
+  align-items: center;
+  gap: 30px 20px;
+  flex-wrap: wrap;
+  min-width: 1120px;
+  @media (max-width: 500px) {
+    padding-left: 5px;
+      min-width: 0px;
+
+  }
+
+  @media (max-width: 400px) {
+    padding: 0;
+    gap: 15px 15px;
+    justify-content: center;
+  }
+}
