@@ -70,7 +70,7 @@ export default function MemberLayout({ children }) {
         background: '#e3f2fd',
         color: '#ed784a',
       }).then(() => {
-        router.replace('/')
+        router.replace('/member/login?type=signin')
       })
     }
   }, [isAuth, isReady, isPublicPage, router, redirecting])

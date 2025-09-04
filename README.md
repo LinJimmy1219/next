@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 寵物用品購物平台網站-Tutor
 
-## Getting Started
+## 專案簡介:
 
-First, run the development server:
+- BARK & BIJOU 是一個專為狗狗與飼主打造的 寵物用品購物平台，結合 電商購物、寵物保母服務、文章分享與活動資訊，提供飼主一站式的寵物生活解決方案。
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- 使用者可以透過 會員註冊或第三方登入（Google） 進入平台，並享有以下功能：
+
+1. 在商城中瀏覽、收藏與購買各式狗狗用品
+2. 預約狗狗保母服務，並查看保母的專業資訊與評價
+3. 收藏文章與活動，打造個人化的寵物知識與娛樂清單
+4. 進入會員中心編輯個人資料、管理收藏與訂單
+
+本專案以前後端分離的架構開發，前端使用 Next.js 建構響應式網站，後端使用 Express.js 提供 API 服務，並以 MySQL + Prisma 管理資料庫。。
+
+![首頁-電腦板](assets/homepage-pc.png)
+![首頁-手機板](assets/homepage-mb.png)
+![登入註冊頁-電腦板](assets/login-pc.png)
+![登入註冊頁-手機板](assets/login-mb.png)
+![會員基本資料-電腦板](assets/userpages-pc.png)
+![會員基本資料-手機板](assets/userpages-mb.png)
+![會員狗狗資料-電腦板](assets/dogpages-pc.png)
+![會員狗狗資料-手機板](assets/dogpages-mb.png)
+
+- 專案企劃書:
+  ![專案企劃書](docs/PROPORALL_compressed.pdf)
+
+- front-End: [https://github.com/LinJimmy1219/next.git](hhttps://github.com/LinJimmy1219/next.git)
+- Back-End: [https://github.com/LinJimmy1219/express.git](https://github.com/LinJimmy1219/express.git)
+
+## 使用技術：
+
+### 前端 (Next.js)
+
+1. Next.js：建構 SSR/CSR 混合的 React 應用
+2. React Context：全域狀態管理（登入狀態、購物車）
+3. Bootstrap：UI 快速開發 + 自訂化樣式
+4. SweetAlert2：快速做出客製化彈出式提示視窗
+
+### 後端 (Express.js)
+
+1. JWT 驗證：會員登入、權限管理
+2. Multer：圖片上傳（頭像、商品圖片）
+3. bcrypt：密碼加密
+4. express-validator：表單驗證
+5. 第三方登入：Google快速登入
+6. OTP / Email 驗證：Email 驗證碼機制
+
+### 資料庫
+
+1. MySQL：會員、商品、訂單、收藏、文章、活動等資料
+2. Prisma：資料庫操作
+
+## 安裝與下載 :
+
+### 下載檔案至本地資料夾
+
+```
+git clone https://github.com/LinJimmy1219/next.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 開啟專案資料夾後安裝檔案
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 輸入執行碼
 
-## Learn More
+```
+npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+### 於瀏覽器輸入以下網址
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+http://localhost:3000/
+```

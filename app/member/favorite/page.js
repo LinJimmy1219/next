@@ -62,7 +62,7 @@ export default function FavoriteSection() {
 
   const totalPages = Math.max(1, Math.ceil(allData.length / itemsPerPage))
 
-  // ✅ 用 useMemo 計算 paginatedData，確保畫面能正確更新
+  // 用 useMemo 計算 paginatedData，確保畫面能正確更新
   const paginatedData = useMemo(() => {
     return allData.slice(
       (currentPage - 1) * itemsPerPage,
@@ -70,7 +70,7 @@ export default function FavoriteSection() {
     )
   }, [allData, currentPage])
 
-  // ✅ 若當前頁資料被刪光，自動跳回上一頁
+  // 若當前頁資料被刪光，自動跳回上一頁
   useEffect(() => {
     if (currentPage > 1 && paginatedData.length === 0) {
       setCurrentPage(currentPage - 1)

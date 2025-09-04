@@ -60,7 +60,7 @@ export function AuthProvider({ children }) {
       // 這裡取得 Firebase 提供的 idToken
       const idToken = await user.getIdToken()
 
-      // 呼叫你的後端 Google 登入 API，傳送 Google 資料給後端
+      // 呼叫後端 Google 登入 API，傳送 Google 資料給後端
       const res = await fetch(
         'http://localhost:3005/api/member/login/google-login',
         {
@@ -73,7 +73,7 @@ export function AuthProvider({ children }) {
             displayName: user.displayName,
             email: user.email,
             photoURL: user.photoURL,
-            idToken, // 可選，看你後端有無要驗證
+            idToken, // 可選，看後端有無要驗證
           }),
         }
       )
