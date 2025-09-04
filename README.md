@@ -15,27 +15,27 @@
 
 ### 首頁
 
-- 首頁 電腦板
+- 首頁 電腦板<br>
   ![首頁-電腦板](assets/homepage-pc.png)
-- 首頁 手機板
+- 首頁 手機板<br>
   ![首頁-手機板](assets/homepage-mb.png)
-- 登入註冊頁 電腦板
+- 登入註冊頁 電腦板<br>
   ![登入註冊頁-電腦板](assets/login-pc.png)
-- 登入註冊頁 手機板
+- 登入註冊頁 手機板<br>
   ![登入註冊頁-手機板](assets/login-mb.png)
-- 會員基本資料 電腦板
+- 會員基本資料 電腦板<br>
   ![會員基本資料-電腦板](assets/userpages-pc.png)
-- 會員基本資料 手機板
+- 會員基本資料 手機板<br>
   ![會員基本資料-手機板](assets/userpages-mb.png)
-- 會員狗狗資料 電腦板
+- 會員狗狗資料 電腦板<br>
   ![會員狗狗資料-電腦板](assets/dogpages-pc.png)
-- 會員狗狗資料手機板
+- 會員狗狗資料手機板<br>
   ![會員狗狗資料-手機板](assets/dogpages-mb.png)
 
-- (docs/PROPORALL_compressed.pdf)
+- [專案企劃書](docs/PROPORALL_compressed.pdf)
 
-- github:
-  Back-End: [https://github.com/LinJimmy1219/express.git](https://github.com/LinJimmy1219/express.git)
+- github:<br>
+  Back-End: [https://github.com/LinJimmy1219/express.git](https://github.com/LinJimmy1219/express.git)<br>
   front-End: [https://github.com/LinJimmy1219/next.git](https://github.com/LinJimmy1219/next.git)
 
 ## 使用技術：
