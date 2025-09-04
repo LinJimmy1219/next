@@ -32,11 +32,11 @@
 - 會員狗狗資料手機板
   ![會員狗狗資料-手機板](assets/dogpages-mb.png)
 
-- 專案企劃書:
-  ![專案企劃書](docs/PROPORALL_compressed.pdf)
+- (docs/PROPORALL_compressed.pdf)
 
-- front-End: [https://github.com/LinJimmy1219/next.git](hhttps://github.com/LinJimmy1219/next.git)
-- Back-End: [https://github.com/LinJimmy1219/express.git](https://github.com/LinJimmy1219/express.git)
+- github:
+  Back-End: [https://github.com/LinJimmy1219/express.git](https://github.com/LinJimmy1219/express.git)
+  front-End: [https://github.com/LinJimmy1219/next.git](https://github.com/LinJimmy1219/next.git)
 
 ## 使用技術：
 
