@@ -1,4 +1,4 @@
-# 寵物用品購物平台網站-Tutor
+# 寵物用品購物平台網站-BARK & BIJOU
 
 ## 專案簡介:
 
@@ -11,16 +11,26 @@
 3. 收藏文章與活動，打造個人化的寵物知識與娛樂清單
 4. 進入會員中心編輯個人資料、管理收藏與訂單
 
-本專案以前後端分離的架構開發，前端使用 Next.js 建構響應式網站，後端使用 Express.js 提供 API 服務，並以 MySQL + Prisma 管理資料庫。。
+- 本專案以前後端分離的架構開發，前端使用 Next.js 建構響應式網站，後端使用 Express.js 提供 API 服務，並以 MySQL + Prisma 管理資料庫。
 
-![首頁-電腦板](assets/homepage-pc.png)
-![首頁-手機板](assets/homepage-mb.png)
-![登入註冊頁-電腦板](assets/login-pc.png)
-![登入註冊頁-手機板](assets/login-mb.png)
-![會員基本資料-電腦板](assets/userpages-pc.png)
-![會員基本資料-手機板](assets/userpages-mb.png)
-![會員狗狗資料-電腦板](assets/dogpages-pc.png)
-![會員狗狗資料-手機板](assets/dogpages-mb.png)
+### 首頁
+
+- 首頁 電腦板
+  ![首頁-電腦板](assets/homepage-pc.png)
+- 首頁 手機板
+  ![首頁-手機板](assets/homepage-mb.png)
+- 登入註冊頁 電腦板
+  ![登入註冊頁-電腦板](assets/login-pc.png)
+- 登入註冊頁 手機板
+  ![登入註冊頁-手機板](assets/login-mb.png)
+- 會員基本資料 電腦板
+  ![會員基本資料-電腦板](assets/userpages-pc.png)
+- 會員基本資料 手機板
+  ![會員基本資料-手機板](assets/userpages-mb.png)
+- 會員狗狗資料 電腦板
+  ![會員狗狗資料-電腦板](assets/dogpages-pc.png)
+- 會員狗狗資料手機板
+  ![會員狗狗資料-手機板](assets/dogpages-mb.png)
 
 - 專案企劃書:
   ![專案企劃書](docs/PROPORALL_compressed.pdf)
